@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Details Techniques - Fleuriste de l'internet</title>
+	<link rel="stylesheet" type="text/css" href="style/styledetails.css">
+</head>
+<header id="header">
+</header>
+<nav id="navbar">
+<ul>
+	<li><a href = "index.html">Accueil</a></li>
+	<li><a href = "produits.html">Nos produits</a></li>
+	<li><a href = "quisommesnous.html">Qui sommes-nous ?</a></li>
+	<li><a href = "details.html">Détails Techniques</a></li>
+	<li><a href = "paniervide.html">Panier</a></li>
+</ul>
+<form action="produits.html" method="POST" id="recherche">
+        <input type="text" name="recherche" placeholder="Recherche">
+</form>
+</nav>
+<br>
+<div id="fond">
+<div id="container">
+<div id="contenu">
+<article>
+<h1>Détails Techniques</h1>
+<p>Le corps du site : la bannière du site est une simple image faite sur photoshop, pour les liens de navigation en haut j’ai utilisé une liste avec display :inline pour aligner chaque élément, avec une largeur définie pour laisser de la place à la barre ce recherche, faite avec un élément form avec float : left pour la coller au reste. Ensuite j’ai mis l’image avec les fleurs en background et le contenu de mon site est dans un cadre blanc posé par-dessus avec une largeur fixée. Les largeurs sont fixées en pourcentage pour permettre au site d’être responsive quand on réduit la taille de la fenêtre.</p>
+<p>Les images viennent directement d'internet sans trop me soucier d'utiliser des images libres, la plupart des images de produits viennent du site d'interflora ( désolé ) </p>
+<p>La page d’accueil : les deux photos des produits sont dans des balises <a></a> pour les transformer en lien, chaque lien vers un produit renvoie vers la même page.</p>
+<p>La page produits : J’ai simplement mit le lien vers chaque image dans le fichier html puis utilisé le css pour chacune leur faire prendre un quart de l’espace libre dans le conteneur, et arrondir les bords.</p>
+<p>La page article : J’ai utilisé display :grid pour pouvoir disposer chaque élément de la manière que je souhaite, une form avec type= « number » pour le selecteur de quantité et un bouton ajouter au panier qui envoie vers une page panierplein qui simule le panier avec un article dedans.</p>
+<p>La page panier : le contenu est divisé en deux div nommées article et side, pour l’article j’ai simplement utilisé width et float pour placer chaque élément, et un bouton « supprimer l’article » qui dirige vers une page paniervide, et la zone sur le côté avec les détails de la commande est placée avec un float :right et une largeur fixeé en pourcents.</p>
+</article>
+
+</div>	
+</div>	
+</div>	
+</html>

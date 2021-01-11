@@ -1,0 +1,67 @@
+body{
+	font-family: Arial;
+}
+
+#fond{
+	background-image: url(../img/bgfleur.jpg);
+}
+#header{
+	padding-top: 80px;
+	background-image:url(../img/header.png);
+	color:red;
+}
+
+#header h2{
+	border-top: 10px;
+}
+
+#navbar{
+	text-align:center;
+	width: 75%;
+	margin:auto;
+	overflow: hidden;
+	
+}
+#navbar ul{
+	background-color: white;
+	width:80%;
+}
+#navbar li{
+	background-color: rgb(188,128,162);
+	display:inline;
+	float:left;
+	border:solid white 5px;
+	border-radius: 10px;
+	box-sizing:border-box;	
+
+}
+
+#recherche {
+	margin-top: 8px;
+	float:left;
+	width:20%;
+}
+
+#navbar a{
+	text-decoration: none;
+	padding:0 8px;
+	color:white;
+	font-size: 25px;
+}
+
+#container {
+	text-align:center;
+	width: 75%;
+	margin:auto;
+	overflow: hidden;
+}
+
+#contenu {
+	background-color: white;	
+}
+
+.produit {
+	width:25%;
+	border-radius: 15px;
+	border:transparent;
+}

@@ -1,0 +1,132 @@
+body{
+	font-family: Arial;
+}
+
+#fond{
+	background-image: url(../img/bgfleur.jpg);
+}
+#header{
+	padding-top: 80px;
+	background-image:url(../img/header.png);
+	color:red;
+}
+
+#header h2{
+	border-top: 10px;
+}
+
+#navbar{
+	text-align:center;
+	width: 75%;
+	margin:auto;
+	overflow: hidden;
+	
+}
+#navbar ul{
+	background-color: white;
+	width:80%;
+}
+#navbar li{
+	background-color: rgb(188,128,162);
+	display:inline;
+	float:left;
+	border:solid white 5px;
+	border-radius: 10px;
+	box-sizing:border-box;	
+
+}
+
+#recherche {
+	margin-top: 8px;
+	float:left;
+	width:20%;
+}
+
+#navbar a{
+	text-decoration: none;
+	padding:0 8px;
+	color:white;
+	font-size: 25px;
+}
+
+#container {
+	text-align:center;
+	width: 75%;
+	margin:auto;
+	overflow: hidden;
+}
+
+#contenu {
+	background-color: white;
+}
+
+#side{
+	padding:5px;
+	border:solid rgb(188,128,162) 6px;
+	border-radius: 15px;
+	float:right;
+	width:20%;
+	background-color: #dbd7d7;
+}
+
+#side li{
+	font
+}
+
+#detcom label{
+	display:block;
+}
+.ligne{
+	padding-bottom: 10px;
+}
+#detcom input[type="submit"]{
+	width:100%;
+	color:rgb(188,128,162);
+}
+h3{
+	color:black;
+	padding:10px;	
+	border:solid grey 1px;
+	font-family: andale mono;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 8px;
+}
+
+#article {
+	border:solid grey 1px;
+	width:70%;
+	float:left;
+	background-color: white;
+}
+
+#image{
+	float:right;
+	width:25%;
+	padding-right: 50px;
+
+
+}
+#details{
+	text-align: left;	
+	list-style: url(../img/discfleur.jpg);
+	font-size: 25px;
+}
+
+
+#details a{
+	color:red;
+}
+
+#bouton{
+	margin-left: 20px;
+	float:left;
+}
+
+#bouton input[type="submit"]{
+	color:rgb(188,128,162);
+}
+
+
+
+

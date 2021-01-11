@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Panier - Fleuriste de l'internet</title>
+	<link rel="stylesheet" type="text/css" href="style/stylepanierplein.css">
+</head>
+<header id="header">
+</header>
+<nav id="navbar">
+<ul>
+	<li><a href = "index.html">Accueil</a></li>
+	<li><a href = "produits.html">Nos produits</a></li>
+	<li><a href = "quisommesnous.html">Qui sommes-nous ?</a></li>
+	<li><a href = "details.html">Détails Techniques</a></li>
+	<li><a href = "paniervide.html">Panier</a></li>
+</ul>
+<form action="produits.html" method="POST" id="recherche">
+        <input type="text" name="recherche" placeholder="Recherche">
+</form>
+</nav>
+<br>
+<div id="fond">
+<div id="container">
+<div id="contenu">
+
+	<h3>Votre panier : </h3>
+		<div id="article">
+		<img id="image" alt="rosesrougeblanc" src="img/rougeblanc.jpg">
+		<ul id="details">
+		<li><a href="1produit.html">Bouquet de roses rouges et blanches</a></li>
+		<li>Quantité : 1</li>
+		<li>Prix : 50€</li>
+		</ul>
+		<form id="bouton" action=paniervide.html>
+		<input type="submit" name="suppr" value="Supprimer l'article">
+		</form>
+		</div>	
+<div id="side">
+		<h4>Frais de port : 5€</h4>
+		<h4>Total : 55€</h4>
+		<h4>Détails de la commande : </h4>	
+		<form id="detcom" action=paiement.html>
+			<div class="ligne">
+        		<label>Nom et Prénom</label>
+        		<input type="text" name="nomPrenom">
+    		</div>
+    		<div class="ligne">
+        		<label>Adresse</label>
+        		<input type="text" name="adresse">
+    		</div>
+    		<div class="ligne">
+        		<label>Code postal</label>
+        		<input type="text" name="codepostal">
+    		</div>
+    		<div class="ligne">
+        		<label>Ville</label>
+        		<input type="text" name="Ville">
+    		</div>
+    		<div class="ligne">
+    			<label>Moyen de paiement</label>
+        		<select name="Moyen de paiement">
+        			<option>Carte Banquaire</option>
+        			<option>Paypal	</option>
+        		</select>
+    		</div>
+    		<input type="submit" name="paiement" value="Aller au paiement">
+		</form>
+</div>
+</div>
+</div>
+</div>	
+</html>
